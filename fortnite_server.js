@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const hostname = 'localhost';
-const port = 3000;
+const port = process.env.PORT || 3000;
 const app = express();
 
 // Bring in the Fortnite module
